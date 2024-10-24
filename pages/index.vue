@@ -1,4 +1,8 @@
 <script setup lang="ts">
+defineRouteRules({
+	prerender: true
+})
+
 const sections = [
   "## First section\n\nSome **bold** text.",
   "## Second section\n\nSome more **bold** text.",
